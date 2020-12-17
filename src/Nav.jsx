@@ -33,7 +33,7 @@ class Nav extends Component {
               <li><NavLink onClick={this.clickHandler} exact to="/">Home</NavLink></li>
               <li><NavLink onClick={this.clickHandler} to="/about">About me</NavLink></li>
               <li><NavLink onClick={this.clickHandler} to="/resume">Curriculum</NavLink></li>
-              <li><NavLink onClick={this.clickHandler} to="/portfolio">Portfolio</NavLink></li>
+              <li><NavLink onClick={this.clickHandler} to="/portfolio#modal-01">Portfolio</NavLink></li>
             </ul>
           </nav>
           <div className="content">
