@@ -21,7 +21,6 @@ class Nav extends Component {
 
   clickHandler() {
     this.setState({open: this.state.open ? false : true})
-    console.log("statequieto")
   }
 
   render() {
