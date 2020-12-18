@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 export default class Header extends Component {
   render() {
+    console.log("If you have come this far. Stop looking for errors ⚠️ on the web, and spend that time looking 👀 for the Easter egg I have for you 🐰🥚")
     return (
       <header id="home">
         <div className="row banner">

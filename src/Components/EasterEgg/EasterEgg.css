@@ -1,0 +1,99 @@
+:root {
+    --bg-left:  #EBE9E6;
+    --bg-right: #F6F6F7;
+      
+      --egg-left : #EAE2D5;
+    --egg-middle : #E7DCC6;
+    --egg-right : #FCFCFB;
+      
+      --shadow-dark : #7A6653;
+      --shadow : #E5DCCD;
+      --shadow-light : #E4DAC8;
+  }
+  
+  
+  .bodyegg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      height: 100vh;
+      background: 
+          linear-gradient(
+              90deg, 
+              var(--bg-left),
+              var(--bg-right)
+          );
+  }
+  
+  .egg, 
+  .egg:before,
+  .egg:after {
+      display: block;
+      position: relative;
+      content: "";
+      width: 185px;
+      height: 250px;
+      border-radius: 50%;
+  }
+  
+  /* The shadow on the ground */
+  .egg:before {
+      transform: rotate(-90deg)	scaleY(5) scaleX(.32);
+      background: 
+          radial-gradient(
+              circle at center bottom, 
+              var(--shadow), 
+              transparent, 
+              transparent
+          );
+      transform-origin: center bottom;
+      box-shadow: 0 0 15px var(--shadow);
+  }
+  
+  /* The shadows on the actual egg */
+  .egg:after {
+      position: absolute;
+      top: 0;
+      background: 
+          radial-gradient(
+              circle at 25% 25%, 
+              transparent 40%,	
+              var(--egg-right)
+          ),
+          linear-gradient(
+              90deg, 
+              var(--egg-left), 
+              var(--egg-middle), 
+              var(--egg-right), 
+              var(--egg-right)
+          );	
+      box-shadow: inset 3px -10px 10px -10px var(--shadow-light), 
+                                          -5px 25px 10px -25px var(--shadow-dark);
+  }
+  
+  
+  /* Shake the egg on hover */
+  .egg:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+       cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔥</text></svg>") 16 0,auto; 
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }

@@ -8,6 +8,7 @@ import Header from "./Components/Header/Header"
 import About from "./Components/About/About"
 import Resume from "./Components/Resume/Resume"
 import Portfolio from "./Components/Portfolio/Portfolio";
+import EasterEgg from "./Components/EasterEgg/EasterEgg";
 
 class Nav extends Component {
   constructor(props) {
@@ -41,6 +42,7 @@ class Nav extends Component {
             <Route path="/about" component={About} />
             <Route path="/resume" component={Resume} />
             <Route path="/portfolio" component={Portfolio} />
+            <Route path="/EasterEgg" component={EasterEgg} />
           </div>
         </div>
     );

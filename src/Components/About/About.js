@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-
+import { Link } from "react-router-dom";
 
 export default class About extends Component {
   render() {
+    console.log("If you have come this far. Stop looking for errors ⚠️ on the web, and spend that time looking 👀 for the Easter egg I have for you 🐰🥚")
     return (      
       <section id="about">
         <div className="row">
@@ -23,9 +24,8 @@ Knowledge of: ES6, CSS3, HTML5, Bootstrap, JavaScript, MongoDB, web responsive, 
                   <span> Vila de Gràcia<br />
                     Barcelona 08025 ES
                   </span><br />
-                  <span>(0034) 663537159</span><br />
+                  <span>(0<Link to={'/EasterEgg'}><span role="img" aria-label="egg">🥚</span></Link>34) 663537159</span><br />
                   <span>joseluisblascoortiz@hotmail.com</span>
-                  
                 </p>
               </div>
             </div>
