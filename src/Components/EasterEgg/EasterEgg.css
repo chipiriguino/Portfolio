@@ -76,8 +76,7 @@
   /* Shake the egg on hover */
   .egg:hover {
     animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-    transform: translate3d(0, 0, 0);
-       cursor:url("data:image/svg+xml;utf8,<svg xmlns='https://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔥</text></svg>") 16 0,auto; 
+    transform: translate3d(0, 0, 0); 
   }
   
   @keyframes shake {
