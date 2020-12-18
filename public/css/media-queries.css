@@ -44,6 +44,7 @@
    #nav-wrap {
       font: 11px 'opensans-bold', sans-serif;
       letter-spacing: 1.5px;
+      /* margin-right: -30px; */
    }
 
 
@@ -53,6 +54,7 @@
       width: 114px;
       height: 114px;
       margin-left: 12px;
+      margin-top:-60px;
    }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
@@ -123,7 +125,7 @@
 
       position: relative;
       top: 0px;
-      right: 30px;
+      right: 0px;
    }
 
 	#nav-wrap > a:before,
@@ -233,7 +235,7 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   /* #about .profile-pic { display: none; } */
    #about .download .button {
       width: 100%;
       text-align: center;
