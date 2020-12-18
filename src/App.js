@@ -7,6 +7,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 
 class App extends Component {
   render() {
+    console.log("prueba")
     return (
       <div className="App">
         <Header />
