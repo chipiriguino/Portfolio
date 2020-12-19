@@ -1,0 +1,109 @@
+.wrapper {
+    background: #e6e6ff;
+    height: 100vh;
+    position: relative;
+}
+.loader {
+    position: absolute;
+    font-size: 2em;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.loader div {
+    position: relative;
+    width: 50px;
+    margin: 5px -5px;
+    display: inline-block;
+}
+.loader div .string {
+    width: 1px;
+    height: 100px;
+    display: block;
+    margin: 0px auto;
+    background: #0c58b5;
+}
+.loader div .string:before {
+    content: '';
+    width: 10px;
+    display: block;
+    position: relative;
+    top: -4px;
+    right: 4px;
+    border-radius: 100%;
+    background: #0c58b5;
+    height: 10px;
+}
+.ender, .striker {
+    transform-origin: top;
+}
+.ender {
+    transform: rotate(0deg);
+    animation-delay: 0.25s;
+    animation: struck 1.5s cubic-bezier(0, 0.26, 0.29, 1.54) infinite;
+}
+.striker {
+    transform: rotate(45deg);
+    animation: strike 1.5s cubic-bezier(0, 0.26, 0.29, 1.54) infinite;
+}
+@keyframes strike {
+    0% {
+        transform: rotate(45deg);
+   }
+    50% {
+        transform: rotate(0deg);
+   }
+    100% {
+        transform: rotate(45deg);
+   }
+}
+@keyframes struck {
+    0% {
+        transform: rotate(0deg);
+   }
+    50% {
+        transform: rotate(-45deg);
+   }
+    100% {
+        transform: rotate(0deg);
+   }
+}
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+   }
+    33.33% {
+        transform: rotate(-2deg);
+   }
+    66.66% {
+        transform: rotate(2deg);
+   }
+    100% {
+        transform: rotate(0deg);
+   }
+}
+div.loader:nth-child(4) {
+    color: #1e1224;
+}
+div.loader div:nth-of-type(1) {
+    color: #000017;
+}
+div.loader div:nth-of-type(2) {
+    color: #191e67;
+}
+div.loader div:nth-of-type(3) {
+    color: #323cb7;
+}
+div.loader div:nth-of-type(4) {
+    color: #191e67;
+}
+div.loader div:nth-of-type(5) {
+    color: #191e67;
+}
+div.loader div:nth-of-type(6) {
+    color: #191e67;
+}
+div.loader div:nth-of-type(7) {
+    color: #191e67;
+}

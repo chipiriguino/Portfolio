@@ -9,6 +9,8 @@ import About from "./Components/About/About"
 import Resume from "./Components/Resume/Resume"
 import Portfolio from "./Components/Portfolio/Portfolio";
 import EasterEgg from "./Components/EasterEgg/EasterEgg";
+import Pendulum from "./Components/Pendulum/Pendulum";
+import Card from "./Components/Card/Card";
 
 class Nav extends Component {
   constructor(props) {
@@ -42,6 +44,8 @@ class Nav extends Component {
             <Route path="/resume" component={Resume} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/EasterEgg" component={EasterEgg} />
+            <Route path="/Pendulum" component={Pendulum} />
+            <Route path="/Card" component={Card} />
           </div>
         </div>
     );
