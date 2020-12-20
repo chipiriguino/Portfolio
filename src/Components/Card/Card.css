@@ -88,5 +88,12 @@
 	 .container2:hover .card {
 		 transform: scale(0.5) rotateY(-180deg) translateZ(1px);
 	}
+
+	.back {
+		background: #F06000;
+		padding: 30px;
+   }
+
+	
 }
  
