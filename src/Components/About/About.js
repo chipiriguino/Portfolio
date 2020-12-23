@@ -25,7 +25,7 @@ Knowledge of: ES6, CSS3, HTML5, Bootstrap, JavaScript, MongoDB, web responsive, 
                     Barcelona 08025 ES
                   </span><br />
                   <span>(0<Link to={'/EasterEgg'}><span role="img" aria-label="egg">🥚</span></Link>34) 663537159</span><br />
-                  <span>joseluisblascoortiz@hotmail.com</span>
+                  <span>joseluisblascoortiz@gmail.com</span>
                 </p>
               </div>
             </div>
