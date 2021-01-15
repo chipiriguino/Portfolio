@@ -168,7 +168,7 @@ ul#nav li.current a { color: #F06000; }
    background-color:#2B2B2B;
 }
 
-#about a, #about a:visited  { color: #fff; }
+#about a, #about a:visited  { color:black; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
