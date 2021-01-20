@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
-import Contact from "../Contact/Contact"
+// import Contact from "../Contact/Contact"
 
 export default class About extends Component {
   render() {
@@ -28,7 +28,7 @@ Knowledge of: ES6, CSS3, HTML5, Bootstrap, JavaScript, MongoDB, web responsive, 
                   <span>(0<Link to={'/EasterEgg'}><span role="img" aria-label="egg">🥚</span></Link>34) 663537159</span><br />
                   <span>joseluisblascoortiz@gmail.com</span>
                 </p>
-                <Contact />
+                {/* <Contact /> */}
               </div>
             </div>
           </div>

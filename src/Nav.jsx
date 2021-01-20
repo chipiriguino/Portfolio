@@ -11,6 +11,8 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import EasterEgg from "./Components/EasterEgg/EasterEgg";
 import Pendulum from "./Components/Pendulum/Pendulum";
 import Card from "./Components/Card/Card";
+import Modals from "./Components/Modals/Modals";
+
 
 class Nav extends Component {
   constructor(props) {
@@ -40,12 +42,13 @@ class Nav extends Component {
           </nav>
           <div className="content">
             <Route exact path="/" component={Header} />
-            <Route path="/about" component={About} />
-            <Route path="/resume" component={Resume} />
-            <Route path="/portfolio" component={Portfolio} />
-            <Route path="/EasterEgg" component={EasterEgg} />
-            <Route path="/Pendulum" component={Pendulum} />
-            <Route path="/Card" component={Card} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/resume" component={Resume} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/EasterEgg" component={EasterEgg} />
+            <Route exact path="/Pendulum" component={Pendulum} />
+            <Route exact path="/Card" component={Card} />
+            <Route exact path="/Modals" component={Modals} />
           </div>
         </div>
     );
