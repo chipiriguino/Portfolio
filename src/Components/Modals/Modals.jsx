@@ -4,148 +4,104 @@ import './Modals.css';
 export default function Modals() {
     return (
         <div className="modal-align">
-           <div class="container">
-           <img src="images/portfolio/love.jpg" alt="love" width="100%"  />
-    <h1>It's your choice. Be Nice or Be Mean. I ❤️ you either way.</h1>
-    <div class="buttons">
-        <a class="button" href="#be-nice">Be Nice</a>
+            <div className="container">
 
-        <a class="button" href="#be-mean">Be Mean</a>
-    </div>
-</div>
-
-
-
-<div class="modal" id="be-nice">
-    <div class="modal-content">
-    <img className="scale-with-grid" src="images/portfolio/heart.jpg" alt="pixel" />
-    <h4>ILOVEHACK</h4>
-              <p>I LOVE HACK is an app that allows you to find love leaving behind your physical appearance and looking for your best partner through a test.</p>
-                <a href="#close" class="close">Close Popup</a>
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=%40brob%20is%20the%20absolute%20best.%20This%20JavaScript-less%20modal%20is%20super%20cool.%20https%3A%2F%2Fcodepen.io%2Fbrob%2Fpen%2FjLqmqw%3Feditors%3D1100" class="button">Tweet it!</a>
-    </div>
-    <a href="#close" class="background"></a>
-</div>
+                <img className="modal-img" src="images/portfolio/love.jpg" alt="love" width="400rem" />
+                <h2>ILOVEHACK</h2> <span className="categories"><i className="fa fa-tag" />App</span>
+                <p>With React,Express,NodeJS,MongoDB</p>
+                <div className="buttons">
+                    <a className="button" href="#be-nice">See More</a>
+                </div>
+            </div>
 
 
 
-<div class="modal" id="be-mean">
-     <div class="modal-content">
-        <h1>Tweet this mean message</h1>
-        <p>"@brob is the stupidly awesome in his awesomeness. This JavaScript-less modal is stupid and super cool. https://codepen.io/brob/pen/jLqmqw?editors=1100"</p>
-                <a href="#close" class="close">Close Popup</a>
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=%40brob%20is%20the%20stupidly%20awesome%20in%20his%20awesomeness.%20This%20JavaScript-less%20modal%20is%20stupid%20and%20super%20cool.%20https%3A%2F%2Fcodepen.io%2Fbrob%2Fpen%2FjLqmqw%3Feditors%3D1100" class="button">Tweet it!</a>
-    </div>
-    <a href="#close" class="background"></a>
-    
-</div>
-
-<div class="container">
-<img  src="images/portfolio/palomitas.jpg" alt="palomitas" />
-    <h1>It's your choice. Be Nice or Be Mean. I ❤️ you either way.</h1>
-    <div class="buttons">
-        <a class="button" href="#be-nice1">Be Nice</a>
-
-        <a class="button" href="#be-mean">Be Mean</a>
-    </div>
-</div>
+            <div className="modal" id="be-nice">
+                <div className="modal-content">
+                    <img className="pop-img"  src="images/portfolio/heart.jpg" alt="pixel" />
+                    <h4>ILOVEHACK</h4>
+                    <p><u>I LOVE HACK</u> is an app that allows you to find love leaving behind your physical appearance and looking for your best partner through a test.</p>
+                    <div className="align-btn-portfolio">
+                        <a href="#close" className="button">Close</a>
+                        <a href="https://i-love-hack.herokuapp.com/" className="button">Go to App</a>
+                    </div>
+                </div>
+                <a href="#close" className="background">.</a>
+            </div>
 
 
-
-<div class="modal" id="be-nice1">
-    <div class="modal-content">
-    <img className="scale-with-grid" src="images/portfolio/cine.jpg" alt="cine"/>
-        <p>"@brob is the absolute best. This JavaScript-less modal is super cool. https://codepen.io/brob/pen/jLqmqw?editors=1100"</p>
-                <a href="#close" class="close">Close Popup</a>
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=%40brob%20is%20the%20absolute%20best.%20This%20JavaScript-less%20modal%20is%20super%20cool.%20https%3A%2F%2Fcodepen.io%2Fbrob%2Fpen%2FjLqmqw%3Feditors%3D1100" class="button">Tweet it!</a>
-    </div>
-    <a href="#close" class="background"></a>
-</div>
+            <div className="container">
+                <img className="modal-img" src="images/portfolio/palomitas.jpg" alt="palomitas" width="400rem" />
+                <h2>MovieDick</h2><span className="categories"><i className="fa fa-tag" />App</span>
+                <p>With React,Express,NodeJS,MongoDB</p>
+                <div className="buttons">
+                    <a className="button" href="#be-nice1">See More</a>
+                </div>
+            </div>
 
 
 
-<div class="modal" id="be-mean">
-     <div class="modal-content">
-        <h1>Tweet this mean message</h1>
-        <p>"@brob is the stupidly awesome in his awesomeness. This JavaScript-less modal is stupid and super cool. https://codepen.io/brob/pen/jLqmqw?editors=1100"</p>
-                <a href="#close" class="close">Close Popup</a>
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=%40brob%20is%20the%20stupidly%20awesome%20in%20his%20awesomeness.%20This%20JavaScript-less%20modal%20is%20stupid%20and%20super%20cool.%20https%3A%2F%2Fcodepen.io%2Fbrob%2Fpen%2FjLqmqw%3Feditors%3D1100" class="button">Tweet it!</a>
-    </div>
-    <a href="#close" class="background"></a>
-    
-</div>
+            <div className="modal" id="be-nice1">
+                <div className="modal-content">
+                    <img className="pop-img" src="images/portfolio/cine.jpg" alt="cine" />
+                    <h4>MovieDick</h4>
+                    <p><u>MovieDick</u> is a movie social network, where you can search, add or share any movie.
+The app that every movie lover needs.</p>
+<div className="align-btn-portfolio">
+                    <a href="#close" className="button">Close </a>
+                    <a href="https://moviedick.herokuapp.com" className="button">Go to App</a>
+                </div>
+                </div>
+                <a href="#close" className="background">.</a>
+            </div>
 
 
-<div class="container">
-<img src="images/portfolio/ironman.jpg" height="400px" alt="hero" />
-    <h1>It's your choice. Be Nice or Be Mean. I ❤️ you either way.</h1>
-    <div class="buttons">
-        <a class="button" href="#be-nice2">Be Nice</a>
-
-        <a class="button" href="#be-mean">Be Mean</a>
-    </div>
-</div>
-
-
-
-<div class="modal" id="be-nice2">
-    <div class="modal-content">
-    <img className="scale-with-grid" src="images/portfolio/ironman.webp" alt="ironman" />
-        <p>"@brob is the absolute best. This JavaScript-less modal is super cool. https://codepen.io/brob/pen/jLqmqw?editors=1100"</p>
-                <a href="#close" class="close">Close Popup</a>
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=%40brob%20is%20the%20absolute%20best.%20This%20JavaScript-less%20modal%20is%20super%20cool.%20https%3A%2F%2Fcodepen.io%2Fbrob%2Fpen%2FjLqmqw%3Feditors%3D1100" class="button">Tweet it!</a>
-    </div>
-    <a href="#close" class="background"></a>
-</div>
+            <div className="container">
+                <img className="modal-img" src="images/portfolio/ironman.jpg" height="400px" alt="hero" width="400rem" />
+                <h2>I´m Your Hero</h2><span className="categories"><i className="fa fa-tag" />App</span>
+                <p>With HTML,CSS,JScript</p>
+                <div className="buttons">
+                    <a className="button" href="#be-nice2">See More</a>
+                </div>
+            </div>
 
 
 
-<div class="modal" id="be-mean">
-     <div class="modal-content">
-        <h1>Tweet this mean message</h1>
-        <p>"@brob is the stupidly awesome in his awesomeness. This JavaScript-less modal is stupid and super cool. https://codepen.io/brob/pen/jLqmqw?editors=1100"</p>
-                <a href="#close" class="close">Close Popup</a>
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=%40brob%20is%20the%20stupidly%20awesome%20in%20his%20awesomeness.%20This%20JavaScript-less%20modal%20is%20stupid%20and%20super%20cool.%20https%3A%2F%2Fcodepen.io%2Fbrob%2Fpen%2FjLqmqw%3Feditors%3D1100" class="button">Tweet it!</a>
-    </div>
-    <a href="#close" class="background"></a>
-    
-</div>
+            <div className="modal" id="be-nice2">
+                <div className="modal-content">
+                    <img className="pop-img"  src="images/portfolio/ironman.webp" alt="ironman" />
+                    <h4>I´M YOUR HERO</h4>
+                    <p><u>I´M YOUR HERO</u> is a website to enjoy marvel heroes and get to know them more thoroughly, with a retro mode for comic lovers.</p>
+                    <div className="align-btn-portfolio">
+                    <a href="#close" className="button">Close</a>
+                    <a href="https://chipiriguino.github.io/ProyectoMarvel/" className="button">Go to App</a>
+                </div>
+                </div>
+                <a href="#close" className="background">.</a>
+            </div>
 
-
-<div class="container">
+            {/* <div className="container">
 <img src="images/portfolio/loading.png" alt="loading" />
-    <h1>It's your choice. Be Nice or Be Mean. I ❤️ you either way.</h1>
-    <div class="buttons">
-        <a class="button" href="#be-nice3">Be Nice</a>
-
-        <a class="button" href="#be-mean">Be Mean</a>
+<h5>In comming...</h5>
+                        <p>Loading</p>
+    <div className="buttons">
+        <a className="button" href="#be-nice3">See More</a>
     </div>
 </div>
 
 
 
-<div class="modal" id="be-nice3">
-    <div class="modal-content">
+<div className="modal" id="be-nice3">
+    <div className="modal-content">
     <img className="scale-with-grid" src="images/portfolio/loading.png" alt="charging" />
-        <p>"@brob is the absolute best. This JavaScript-less modal is super cool. https://codepen.io/brob/pen/jLqmqw?editors=1100"</p>
-                <a href="#close" class="close">Close Popup</a>
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=%40brob%20is%20the%20absolute%20best.%20This%20JavaScript-less%20modal%20is%20super%20cool.%20https%3A%2F%2Fcodepen.io%2Fbrob%2Fpen%2FjLqmqw%3Feditors%3D1100" class="button">Tweet it!</a>
+    <h4>Loading 56%</h4>
+              <p>In comming</p>
+                <a href="#close" className="button">Close</a>
+        <a  href="" className="button">Soon</a>
     </div>
-    <a href="#close" class="background"></a>
-</div>
+    <a href="#close" className="background">.</a>
+</div> */}
 
-
-
-<div class="modal" id="be-mean">
-     <div class="modal-content">
-        <h1>Tweet this mean message</h1>
-        <p>"@brob is the stupidly awesome in his awesomeness. This JavaScript-less modal is stupid and super cool. https://codepen.io/brob/pen/jLqmqw?editors=1100"</p>
-                <a href="#close" class="close">Close Popup</a>
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=%40brob%20is%20the%20stupidly%20awesome%20in%20his%20awesomeness.%20This%20JavaScript-less%20modal%20is%20stupid%20and%20super%20cool.%20https%3A%2F%2Fcodepen.io%2Fbrob%2Fpen%2FjLqmqw%3Feditors%3D1100" class="button">Tweet it!</a>
-    </div>
-    <a href="#close" class="background"></a>
-    
-</div>
         </div>
     )
 }
