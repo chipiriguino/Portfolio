@@ -20,11 +20,12 @@ export default function Modals() {
                 <div className="modal-content">
                     <img className="pop-img"  src="images/portfolio/heart.jpg" alt="pixel" />
                     <h4>ILOVEHACK</h4>
-                    <p><u>I LOVE HACK</u> is an app that allows you to find love leaving behind your physical appearance and looking for your best partner through a test.</p>
-                    <div className="align-btn-portfolio">
+                    <p><u>I LOVE HACK</u> is an app that allows you to find love leaving behind your physical appearance and looking for your best partner through a test.
+                    </p>
+                    <i className="align-btn-portfolio">
                         <a href="#close" className="button">Close</a>
                         <a href="https://i-love-hack.herokuapp.com/" className="button">Go to App</a>
-                    </div>
+                    </i>
                 </div>
                 <a href="#close" className="background">.</a>
             </div>
