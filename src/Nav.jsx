@@ -7,7 +7,7 @@ import {
 import Header from "./Components/Header/Header"
 import About from "./Components/About/About"
 import Resume from "./Components/Resume/Resume"
-import Portfolio from "./Components/Portfolio/Portfolio";
+// import Portfolio from "./Components/Portfolio/Portfolio";
 import EasterEgg from "./Components/EasterEgg/EasterEgg";
 import Pendulum from "./Components/Pendulum/Pendulum";
 import Card from "./Components/Card/Card";
@@ -44,11 +44,11 @@ class Nav extends Component {
             <Route exact path="/" component={Header} />
             <Route exact path="/about" component={About} />
             <Route exact path="/resume" component={Resume} />
-            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/portfolio" component={Modals} />
             <Route exact path="/EasterEgg" component={EasterEgg} />
             <Route exact path="/Pendulum" component={Pendulum} />
             <Route exact path="/Card" component={Card} />
-            <Route exact path="/Modals" component={Modals} />
+            {/* <Route exact path="/Modals" component={Modals} /> */}
           </div>
         </div>
     );
