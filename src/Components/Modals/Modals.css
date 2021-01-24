@@ -16,6 +16,7 @@
     display: flex;
     top: 0;
     left: 0;
+    
 }
 .modal-content {
     width: 93%;
@@ -68,6 +69,7 @@ body {
     margin: 50px auto;
     background-color: white;
     padding: 1.25rem;
+    border-radius: 5px;
 }
 .buttons {
     display: flex;
@@ -78,6 +80,9 @@ body {
     display: flex;
 justify-content: center;
 }
+
+
+/* MEDIA QUERYS */
 
 @media only screen and (min-width: 767px) {
 
@@ -164,3 +169,8 @@ justify-content: center;
     }
     
 }
+
+
+/* NEON */
+
+

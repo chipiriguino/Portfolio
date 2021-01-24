@@ -20,8 +20,7 @@ export default function Modals() {
                 <div className="modal-content">
                     <img className="pop-img"  src="images/portfolio/heart.jpg" alt="pixel" />
                     <h4>ILOVEHACK</h4>
-                    <p><u>I LOVE HACK</u> is an app that allows you to find love leaving behind your physical appearance and looking for your best partner through a test.
-                    </p>
+                    <p><u>I LOVE HACK</u> is an app that allows you to find love leaving behind your physical appearance and looking for your best partner through a test.</p>
                     <i className="align-btn-portfolio">
                         <a href="#close" className="button">Close</a>
                         <a href="https://i-love-hack.herokuapp.com/" className="button">Go to App</a>
@@ -59,7 +58,7 @@ The app that every movie lover needs.</p>
 
             <div className="container">
                 <img className="modal-img" src="images/portfolio/ironman.jpg" height="400px" alt="hero" width="400rem" />
-                <h2>I´m Your Hero</h2><span className="categories"><i className="fa fa-tag" />App</span>
+                <h2>I´m Your Hero</h2><span className="categories"><i className="fa fa-tag" />Web</span>
                 <p>With HTML,CSS,JScript</p>
                 <div className="buttons">
                     <a className="button" href="#be-nice2">See More</a>
