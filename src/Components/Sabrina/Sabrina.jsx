@@ -16,7 +16,7 @@ export default function Sabrina() {
            ​<div className="ese">
   <h1 className="tsz">Jose Luis Blasco</h1>
 </div>
-<Window />
+
         </div>
     )
 }
