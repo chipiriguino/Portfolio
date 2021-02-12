@@ -1,0 +1,155 @@
+.body-window1 {
+    user-select: none;
+    font-family: "MS Reference", sans-serif;
+    padding-top: 200px;
+    margin-left:450px;
+    
+  }
+  .window1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: #091e89;
+    overflow: hidden;
+    border-radius: 7px 7px 0 0;
+  }
+  .resize-e1, .resize-w1 {
+    position: absolute;
+    width: 10px;
+    height: 190px;
+    top: 5px;
+  }
+  .resize-w1 {
+    left: -5px;
+    cursor: w-resize;
+  }
+  .resize-e1 {
+    right: -5px;
+    cursor: e-resize;
+  }
+  .resize-n1, .resize-s1 {
+    position: absolute;
+    width: 190px;
+    height: 10px;
+    left: 5px;
+  }
+  .resize-s1 {
+    bottom: -5px;
+    cursor: s-resize;
+  }
+  .resize-n1 {
+    top: -5px;
+    cursor: n-resize;
+  }
+  .resize-ne1, .resize-nw1, .resize-se1, .resize-sw1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+  }
+  .resize-ne1 {
+    cursor: ne-resize;
+  }
+  .resize-sw1 {
+    cursor: sw-resize;
+  }
+  .resize-nw1 {
+    cursor: nw-resize;
+  }
+  .resize-se1 {
+    cursor: se-resize;
+  }
+  .resize-nw1, .resize-ne1 {
+    top: -5px;
+  }
+  .resize-ne1, .resize-se1 {
+    right: 0px;
+  }
+  .resize-sw1, .resize-se1 {
+    bottom: -5px;
+  }
+  .title-bar1 {
+    width: 200px;
+    height: 35px;
+    background: linear-gradient(to bottom, #4094ff 0%, #0056e4 13%, #0056e4 71%, #16428b 100%);
+  }
+  .title-bar1 .title-bar-title1 {
+    position: absolute;
+    top: 7.5px;
+    left: 7.5px;
+    color: white;
+    text-shadow: 1px 1px #10397e;
+    font-size: 15px;
+  }
+  .title-bar1 .title-bar-close1, .title-bar1 .title-bar-max1, .title-bar1 .title-bar-min1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 5px;
+    right: 5px;
+    border-radius: 2px;
+    border: 1px solid white;
+  }
+  .title-bar1 .title-bar-close1 {
+    background: linear-gradient(135deg, #f1a689 0%, #c0442a 50%, #c2311e 100%);
+  }
+  .title-bar-close1:before, .title-bar-close1:after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 2px;
+    background-color: white;
+    border-radius: 2px;
+    top: 9px;
+    box-shadow: 0 0 2px 0 #ccc;
+  }
+  .title-bar-close1:before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 3px;
+  }
+  .title-bar-close1:after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    right: 3px;
+  }
+  .title-bar1 .title-bar-max1, .title-bar1 .title-bar-min1 {
+    background: linear-gradient(135deg, #7eaed6 0%, #1b72ff 50%, #1655be 100%);
+  }
+  .title-bar1 .title-bar-max1 {
+    right: 30px;
+  }
+  .title-bar1 .title-bar-min1 {
+    right: 55px;
+  }
+  .title-bar-max1:after, .title-bar-min1:after {
+    content: '';
+    position: absolute;
+    box-shadow: 0 0 0px 0 #ccc;
+  }
+  .title-bar-max1:after {
+    width: 10px;
+    height: 8px;
+    border: 1px solid white;
+    border-top: 3px solid white;
+    top: 4px;
+    left: 4px;
+  }
+  .title-bar-min1:after {
+    width: 8px;
+    border-bottom: 2px solid white;
+    bottom: 4px;
+    left: 4px;
+  }
+  .window1 .content1 {
+    position: absolute;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 165px;
+    width: 196px;
+    left: 2px;
+    bottom: 3px;
+    background-color: white;
+  }
+  

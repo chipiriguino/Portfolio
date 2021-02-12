@@ -3,18 +3,28 @@ import './Window.css';
 
 export default function Window() {
     return (
-        <div>
-            <div class="alert">
-  <div class="alertHead">
-    <p class="alertTitle">Codepen Application Error</p>
-    <div class="closeAlert"></div>
-  </div>
-  <div class="alertBody">
-    <div class="icon"></div>
-    <p class="alertMsj">Codepen repetition challenge.<br>Windows XP sticky error alert. Like and share this pen :D</br></p>
-    <div class="boton">Ok</div>
-  </div>
+        <div className="body-window">
+            <div className="window">
+	<div className="title-bar">
+		<div className="title-bar-title">Schorinder</div>
+		<div className="title-bar-close"></div>
+		<div className="title-bar-max"></div>
+		<div className="title-bar-min"></div>
+	</div>
+	<div className="content"> Que pasa</div>
+	<div className="resize-n"></div>
+	<div className="resize-e"></div>
+	<div className="resize-s"></div>
+	<div className="resize-w"></div>
+	
+	<div className="resize-ne"></div>
+	<div className="resize-nw"></div>
+	<div className="resize-se"></div>
+	<div className="resize-sw"></div>
 </div>
+
         </div>
     )
 }
+
+

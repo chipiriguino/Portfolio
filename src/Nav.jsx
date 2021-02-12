@@ -12,6 +12,7 @@ import Pendulum from "./Components/Pendulum/Pendulum";
 import Card from "./Components/Card/Card";
 import Modals from "./Components/Modals/Modals";
 import Sabrina from "./Components/Sabrina/Sabrina";
+import Filo from "./Components/FiloJs/Filo";
 
 
 class Nav extends Component {
@@ -38,6 +39,7 @@ class Nav extends Component {
               <li><NavLink onClick={this.clickHandler} to="/about">About me</NavLink></li>
               <li><NavLink onClick={this.clickHandler} to="/resume">Curriculum</NavLink></li>
               <li><NavLink onClick={this.clickHandler} to="/portfolio">Portfolio</NavLink></li>
+              <li><NavLink onClick={this.clickHandler} to="/sabrina">Sabrina</NavLink></li>
             </ul>
           </nav>
           <div className="content">
@@ -49,6 +51,7 @@ class Nav extends Component {
             <Route exact path="/Pendulum" component={Pendulum} />
             <Route exact path="/Card" component={Card} />
             <Route exact path="/Sabrina" component={Sabrina} />
+            <Route exact path="/FiloJs" component={Filo} />
           </div>
         </div>
     );

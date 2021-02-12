@@ -3,11 +3,16 @@
     height: 100%;
     min-height: 500px;
     width: 100%;
-    background: #161415 url(/images/pixel-art-wallpaper-20072219551521920x1080.jpg) no-repeat top center;
+    /* background: #161415 url(/images/pixel-art-wallpaper-20072219551521920x1080.jpg) no-repeat top center; */
+    background-image: url('https://d3uqg2ap1kpnl9.cloudfront.net/wp-content/uploads/2020/07/06103047/bg-canary-yellow.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-size: cover !important;
      -webkit-background-size: cover !important;
     text-align: center;
     overflow: hidden;
+    padding-top: 50px;
 }
 
 
@@ -21,13 +26,15 @@
     perspective: 800px;
 
     position: absolute;
-    top: 58%;
+    top: 94%;
     left: 90%;
     z-index: 0;
 
     width: 160px;
     height: 120px;
     margin: -100px 0 0 -60px;
+    display: flex;
+    flex-direction: row;
 }
 
 .folder div{
@@ -136,8 +143,16 @@
   }
   .tsz {
     position: absolute;
-    -webkit-animation: turn 5s infinite;
-    animation: turn 5s infinite;
+    -webkit-animation: turn 4s infinite;
+    animation: turn 4s infinite;
+    font-size: 3.3rem;
+    margin-top: 40px;
+    margin-left: 30px;
+    color:black;
+    font-weight: bold;
+    
+    
+    
   }
   .front {
     z-index: 2;
@@ -152,3 +167,48 @@
       transform: rotateY(360deg);
     }
   }
+
+
+  .chip{
+    color:white;
+   font-weight: bold;
+    padding-top: 6rem;
+  }
+
+  .txt-sabrina{
+    text-align: start;
+    color: black;
+    font-family: monospace;
+    line-height : 16px;
+    margin-left: 10px;
+  }
+
+/* MEDIA QUERY */
+
+  @media screen and (max-width: 1100px) {
+    .hidden{
+    display:none;
+    }
+    }
+
+
+    @media screen and (min-width: 1100px) {
+      .tsz{
+       font-size: 10rem;
+       line-height: 100px;
+      }
+
+      .txt-sabrina{
+        margin-right: 130px;
+      }
+
+      .media-clock{
+        display: flex;
+        flex-direction: row;
+      }
+
+      .clock{
+        padding-right: 100px;
+      }
+      
+      }
