@@ -6,12 +6,12 @@ export default function Window() {
         <div className="body-window">
             <div className="window">
 	<div className="title-bar">
-		<div className="title-bar-title">Schorinder</div>
+		<div className="title-bar-title">Schrödinger</div>
 		<div className="title-bar-close"></div>
 		<div className="title-bar-max"></div>
 		<div className="title-bar-min"></div>
 	</div>
-	<div className="content"> Que pasa</div>
+	<div className="content"> </div>
 	<div className="resize-n"></div>
 	<div className="resize-e"></div>
 	<div className="resize-s"></div>

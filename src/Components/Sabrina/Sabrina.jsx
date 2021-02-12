@@ -9,7 +9,7 @@ export default function Sabrina() {
     return (
         <div className="sabrina-body">
             <div className="media-clock">
-            <p className="txt-sabrina"><i className="hidden">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó y archivos de texto. Lorem Ipsum ha sido el texto de  </i>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó y archivos de texto. Lorem Ipsum ha sido el texto de  </p>
+            <p className="txt-sabrina"><i className="hidden">Un pensamiento no paradójico me resulta casi insoportable, un pensamiento cerrado en sí mismo, coherente, que no admite la paradoja (Fernando Savater)</i> La creatividad, imaginación e intuición más que la base del medio juego, son indispensables, así como el carácter firme; el triunfo llega solamente con la lucha (Gari Kaspárov).  Me he dado cuenta de que la esperanza casi nunca va ligada a la razón; está privada de sensatez, creo que nace del instinto (Vasili Grossman)</p>
             <div className="clock"><Clock/></div>
             </div>
           <a href="/FiloJs"><div className="folder">

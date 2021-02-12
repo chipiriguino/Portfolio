@@ -6,7 +6,7 @@ export default function Window1() {
         <div className="body-window1">
             <div className="window1">
 	<div className="title-bar1">
-		<div className="title-bar-title1">Pepeito</div>
+		<div className="title-bar-title1">Opio del pueblo</div>
 		<div className="title-bar-close1"></div>
 		<div className="title-bar-max1"></div>
 		<div className="title-bar-min1"></div>

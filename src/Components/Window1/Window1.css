@@ -8,7 +8,7 @@
   .window1 {
     position: absolute;
     width: 200px;
-    height: 200px;
+    height: 180px;
     background-color: #091e89;
     overflow: hidden;
     border-radius: 7px 7px 0 0;
@@ -146,10 +146,11 @@
     position: absolute;
     box-sizing: border-box;
     padding: 10px;
-    height: 165px;
+    height: 147px;
     width: 196px;
     left: 2px;
     bottom: 3px;
-    background-color: white;
+    background-image:url("/images/filo.png");
+    background-size: contain;
   }
   
