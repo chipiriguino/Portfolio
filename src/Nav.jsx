@@ -12,6 +12,8 @@ import Pendulum from "./Components/Pendulum/Pendulum";
 import Card from "./Components/Card/Card";
 import Modals from "./Components/Modals/Modals";
 import Sabrina from "./Components/Sabrina/Sabrina";
+import Filo from "./Components/FiloJs/Filo";
+
 
 
 class Nav extends Component {
@@ -49,6 +51,7 @@ class Nav extends Component {
             <Route exact path="/Pendulum" component={Pendulum} />
             <Route exact path="/Card" component={Card} />
             <Route exact path="/Sabrina" component={Sabrina} />
+            <Route exact path="/Filo" component={Filo} />
           </div>
         </div>
     );

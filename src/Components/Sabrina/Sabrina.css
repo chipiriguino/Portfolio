@@ -37,6 +37,26 @@
     flex-direction: row;
 }
 
+.folder1 {
+  /* This will enable the 3D effect. Decrease this value
+   * to make the perspective more pronounced: */
+
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  perspective: 800px;
+
+  position: absolute;
+  top: 74%;
+  left: 90%;
+  z-index: 0;
+
+  width: 160px;
+  height: 120px;
+  margin: -100px 0 0 -60px;
+  display: flex;
+  flex-direction: row;
+}
+
 .folder div{
     width:70px;
     height:40px;
