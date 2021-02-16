@@ -51,7 +51,7 @@ class Nav extends Component {
             <Route exact path="/Pendulum" component={Pendulum} />
             <Route exact path="/Card" component={Card} />
             <Route exact path="/Sabrina" component={Sabrina} />
-            <Route exact path="/Filo" component={Filo} />
+            <Route exact path="/Slides&GH" component={Filo} />
           </div>
         </div>
     );

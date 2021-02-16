@@ -18,7 +18,7 @@ export default function Sabrina() {
                 <i className="chip">--MyProjects--</i>
             </div>
            </a>
-          <a href="/Filo"><div className="folder folder1">
+          <a href="/Slides&GH"><div className="folder folder1">
                 <div className="front"></div>
                 <div className="back"></div>
                 <i className="chip">--Slides&GH--</i>
