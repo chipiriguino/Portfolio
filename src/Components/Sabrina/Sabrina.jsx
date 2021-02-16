@@ -18,7 +18,6 @@ export default function Sabrina() {
                 <i className="chip">---FiloJS---</i>
             </div>
            </a>
-           
            <div className="hidden">
            <Window/>
            <Window1/>
