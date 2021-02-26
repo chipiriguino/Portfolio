@@ -71,3 +71,16 @@ flex-direction: row;
         font-weight: bold;
     }
     }
+
+    @media screen and (max-width: 700px) {
+    
+        .GH{
+            width: 35px;
+            height: 65px;
+        }
+
+        .query-img-slides{
+            width: 28px;
+            height: 35px;
+        }
+        }
