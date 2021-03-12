@@ -169,10 +169,7 @@
     margin-top: 40px;
     margin-left: 30px;
     color:black;
-    font-weight: bold;
-    
-    
-    
+    font-weight: bold; 
   }
   .front {
     z-index: 2;
@@ -232,3 +229,6 @@
       }
       
       }
+
+
+      
