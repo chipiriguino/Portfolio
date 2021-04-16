@@ -6,7 +6,7 @@ export default class Header extends Component {
       <header id="home">
         <div className="row banner">
           <div className="banner-text">
-            <h1 className="responsive-headline">Hi, I´m Jose Luis Blasco Ortiz</h1>
+            <h1 className="responsive-headline ">Hi, I´m Jose Luis Blasco Ortiz</h1>
             <h3>I am a <span>Front End developer </span>from Barcelona. If you want to know more about me you can explore my website.</h3>
             <hr />
             <ul className="social">
