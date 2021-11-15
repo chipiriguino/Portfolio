@@ -6,7 +6,6 @@ import Window1 from "../../Components/Window1/Window1";
 
 
 export default function Sabrina() {
-    
     return (
         <div className="sabrina-body">
             <div className="media-clock">
@@ -36,5 +35,4 @@ export default function Sabrina() {
         </div>
     )
 }
-
-// prueba
+// Prueba

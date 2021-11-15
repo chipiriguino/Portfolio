@@ -182,6 +182,97 @@ export default function Modals() {
           .
         </a>
       </div>
+
+      <div className="container">
+        <img
+          className="modal-img"
+          src="images/portfolio/logo.png"
+          alt="love"
+          width="400rem"
+        />
+        <h2>Mala Madre</h2>{" "}
+        <span className="categories">
+          <i className="fa fa-tag" />
+          Web
+        </span>
+        <p>With React,Bootstrap,CSS</p>
+        <div className="buttons">
+          <a className="button" href="#be-nice5">
+            See More
+          </a>
+        </div>
+      </div>
+
+      <div className="modal" id="be-nice5">
+        <div className="modal-content">
+          <img
+            className="pop-img"
+            src="images/portfolio/logo.png"
+            alt="pixel"
+          />
+          <h4>Mala Madre</h4>
+          <p>
+            <u>Mala Madre</u> is an informative and contact website of a restaurant.
+          </p>
+          <i className="align-btn-portfolio">
+            <a href="#close" className="button">
+              Close
+            </a>
+            <a href="https://malamadre.herokuapp.com/" className="button">
+              Go to App
+            </a>
+          </i>
+        </div>
+        <a href="#close" className="background">
+          .
+        </a>
+      </div>
+
+
+      <div className="container">
+        <img
+          className="modal-img"
+          src="images/portfolio/ironman.jpg"
+          alt="love"
+          width="400rem"
+        />
+        <h2>I'm your Hero</h2>{" "}
+        <span className="categories">
+          <i className="fa fa-tag" />
+          Web
+        </span>
+        <p>With HTML,JavaScript,CSS</p>
+        <div className="buttons">
+          <a className="button" href="#be-nice6">
+            See More
+          </a>
+        </div>
+      </div>
+
+      <div className="modal" id="be-nice6">
+        <div className="modal-content">
+          <img
+            className="pop-img"
+            src="images/portfolio/ironman.webp"
+            alt="pixel"
+          />
+          <h4>I'm your Hero</h4>
+          <p>
+            <u>I'm your Hero</u> Do you want to know which superhero is the one that best suits you? Would you like to know its qualities and beyond about each one of them? 
+          </p>
+          <i className="align-btn-portfolio">
+            <a href="#close" className="button">
+              Close
+            </a>
+            <a href="https://chipiriguino.github.io/ProyectoMarvel/" className="button">
+              Go to App
+            </a>
+          </i>
+        </div>
+        <a href="#close" className="background">
+          .
+        </a>
+      </div>
     </div>
   );
 }

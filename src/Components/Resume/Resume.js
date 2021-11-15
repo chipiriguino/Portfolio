@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
 export default class Resume extends Component {
   render() {
@@ -9,6 +9,15 @@ export default class Resume extends Component {
           <h1><span>Work</span></h1>
         </div>
         <div className="nine columns main-col">
+        <div className="row item">
+            <div className="twelve columns">
+              <h3>Certa Consulting</h3>
+              <p className="info"> Salesforce developer<span>•</span> <em className="date">Sept 2021 – Present</em></p>
+              <p>
+              My job consists of resolving incidents in a multinational telecommunications company, where different challenges are presented every day that encompasses the entire Salesforce CRM.<br/><b>System administrator, Apex, Lightning Web Components, Omnistudio.</b>
+              </p>
+            </div>
+          </div> 
           <div className="row item">
             <div className="twelve columns">
               <h3>IRONHACK</h3>

@@ -93,7 +93,8 @@ justify-content: center;
     .modal-align{
         display: flex;
         flex-direction: row;
-        margin-top: 13rem;
+        flex-wrap: wrap;
+        margin-top: 9rem;
     }
     
     .modal-content {
